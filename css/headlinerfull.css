@@ -16,7 +16,7 @@
     left: 10px;
     width: 20px;
     height: 20px;
-    background-image: url("YOUR IMAGE GOES HERE");
+    background-image: var(--headliner-image, none);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 
 #app-mount::before {
-    content: "Whatever you want goes here" !important;
+    content: var(--headliner-text, "") !important;
     position: fixed;
     top: 8px; 
     left: 36px;
@@ -37,4 +37,5 @@
     white-space: nowrap;
     text-shadow: 0 0 2px black;
 }
+
 
