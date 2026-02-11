@@ -1,0 +1,39 @@
+.title_edbb22,
+.title_edbb22 * {
+    color: transparent !important;
+    text-shadow: none !important;
+    position: relative !important;
+}
+
+.icon_f34534.guildIcon_edbb22.iconSizeMini_f34534.iconActiveMini_f34534 {
+    display: none !important;
+}
+
+#app-mount::after {
+    content: "";
+    position: fixed;
+    top: 6px;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    background-image: url("https://cdn.discordapp.com/attachments/1462666318032408838/1462671269475651657/0DEalJP.png?ex=698d5cc5&is=698c0b45&hm=0641c7d10cf14de0b87e9707ae3e64c81de78123f726c2774052e49ffa878552&");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    pointer-events: none;
+    z-index: 9999;
+}
+
+#app-mount::before {
+    content: "Avacord" !important;
+    position: fixed;
+    top: 8px; 
+    left: 36px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    pointer-events: none;
+    z-index: 9999;
+    white-space: nowrap;
+    text-shadow: 0 0 2px black;
+}
