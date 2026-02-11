@@ -1,0 +1,12 @@
+/**
+ * @name Headliner
+ * @author AvaLilac
+ * @description Customize Discord's titlebar with your own text and images.
+ */
+
+@import url("https://raw.githubusercontent.com/AvaLilac/AvasThemes/refs/heads/main/css/headlinerfull.css");
+
+:root {
+    --headliner-image: url("https://example.com/your-image.png"); /* change this to your online image URL */
+    --headliner-text: "Whatever you want goes here"; /* <- change this to your desired text */
+}
