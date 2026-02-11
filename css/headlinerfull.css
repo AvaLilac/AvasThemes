@@ -16,7 +16,7 @@
     left: 10px;
     width: 20px;
     height: 20px;
-    background-image: url("https://cdn.discordapp.com/attachments/1462666318032408838/1462671269475651657/0DEalJP.png?ex=698d5cc5&is=698c0b45&hm=0641c7d10cf14de0b87e9707ae3e64c81de78123f726c2774052e49ffa878552&");
+    background-image: url("YOUR IMAGE GOES HERE");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -25,7 +25,7 @@
 }
 
 #app-mount::before {
-    content: "Avacord" !important;
+    content: "Whatever you want goes here" !important;
     position: fixed;
     top: 8px; 
     left: 36px;
@@ -37,3 +37,4 @@
     white-space: nowrap;
     text-shadow: 0 0 2px black;
 }
+
