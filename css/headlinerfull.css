@@ -5,6 +5,10 @@
     position: relative !important;
 }
 
+.title_edbb22 svg[aria-hidden="true"][role="img"] {
+    display: none !important;
+}
+
 .icon_f34534.guildIcon_edbb22.iconSizeMini_f34534.iconActiveMini_f34534 {
     display: none !important;
 }
@@ -37,5 +41,3 @@
     white-space: nowrap;
     text-shadow: 0 0 2px black;
 }
-
-
